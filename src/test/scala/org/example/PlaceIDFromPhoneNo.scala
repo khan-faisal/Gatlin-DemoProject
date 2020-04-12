@@ -9,7 +9,7 @@ import scala.concurrent.duration._
 
 class TestFileGetPlaceID extends Simulation {
 
-  // Http Conf
+  // Http Conf This is Master change
   val httpConf = http.baseUrl("https://maps.googleapis.com")
 
   // Scenario Def
